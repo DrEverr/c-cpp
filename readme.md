@@ -19,7 +19,13 @@ To compile and run the examples, you will need a C++20 compatible compiler such 
 ### Compiling
 
 ```sh
-g++ -std=c++20 -o ascii ascii.cpp
+gcc -std=c++20 -o {output_name} {file_name}.cpp
+```
+
+for current_time I recommend to use the following command:
+
+```sh
+gcc -std=c++20 -o current_time current_time.cpp -lstdc++
 ```
 
 ### Running
