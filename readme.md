@@ -28,12 +28,6 @@ for current_time I recommend to use the following command:
 gcc -std=c++20 -o current_time current_time.cpp -lstdc++
 ```
 
-### Running
-
-```sh
-./ascii
-```
-
 ## Examples
 
 - **Concepts**: Demonstrates the use of concepts to specify template requirements.
