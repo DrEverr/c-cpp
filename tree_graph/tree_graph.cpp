@@ -54,7 +54,7 @@ public:
 
         for (const auto& level : levels) {
             for (const auto& node : level) {
-                cout << std::format("{:>6.4}", node);
+                cout << std::format("{:>6.4}", node); // 6 characters wide with 4 decimal places
             }
             cout << endl;
         }
